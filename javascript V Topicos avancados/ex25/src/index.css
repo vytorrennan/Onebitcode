@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(18, 214, 123);
+    display: flex;
+    justify-content: center;
+
+    font-family: sans-serif;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+section {
+    text-align: center;
+    width: 50%;
+}
+
+input {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(219, 219, 219);
+    border: 1px solid;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+p {
+    margin: 5px;
+}

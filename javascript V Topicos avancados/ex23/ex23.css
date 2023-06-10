@@ -1,0 +1,29 @@
+* {
+    margin: 5px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+}
+
+main {
+    text-align: right;
+    width: 22%;
+    outline: 1px solid;
+    box-shadow: 15px 15px black ;
+}
+
+h4 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    width: 30%;
+}

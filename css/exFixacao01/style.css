@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+
+    justify-content: space-between;
+}
+
+#hand {
+    margin-left: 20px;
+    height: 60%;
+    align-self: center;
+    
+}
+
+#logo {
+    height: 60%;
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    border:  2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border: solid #ff0043;
+    transition: border 1s;
+}

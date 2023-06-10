@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Encontre no Google</h3>
+    <form action="https://www.google.com/search">
+        <label for="q">O que deseja pesquisar?</label>
+        <input type="text" id="q" name="q" placeholder="Digite o que deseja pesquisar aqui" required autocomplete="off" autofocus>
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <form action="">
+        <input list="browsers">
+
+        <datalist id="browsers">
+            <option value="chrome"></option>
+            <option value="firefox"></option>
+            <option value="opera"></option>
+        </datalist>
+
+        <br>
+
+        <input type="password">
+
+        <br>
+
+        <input type="radio" name="gender" value="male"> male
+        <input type="radio" name="gender" value="female"> female
+        <input type="radio" name="gender" value="non-binary"> non-binary
+
+        <br>
+
+        <input type="color">
+
+        <br>
+
+        <input type="date">
+
+        <br>
+
+        <input type="file">
+
+        <br>
+
+        <input type="search">
+    </form>
+</body>
+</html>

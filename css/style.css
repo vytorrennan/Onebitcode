@@ -1,0 +1,16 @@
+section {
+    background-color: rgb(250, 242, 231);
+    width: 75%;
+    margin: auto;
+    font-size: 1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    padding: 0.5% 5% 0.5% 5%;
+}
+
+.date {
+    font-weight: bold;
+    color: lightseagreen;
+}

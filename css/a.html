@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    #header {
+      background-color: #fff;
+      height: 100px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+    #logo {
+      height: 90%;
+    }
+    #search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      margin-top: 30px;
+      position: relative;
+    }
+    #search input[type="text"] {
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      width: 500px;
+      border-radius: 5px;
+      box-shadow: 0px 1px 6px 0px rgba(32,33,36,0.28);
+    }
+    #search input[type="submit"] {
+      background-color: #f2f2f2;
+      color: #757575;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0px 1px 6px 0px rgba(32,33,36,0.28);
+      position: absolute;
+      right: 0;
+    }
+    #links {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .link {
+      color: #757575;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+    <div id="search">
+      <input type="text" placeholder="Search">
+      <input type="submit" value="Google Search">
+    </div>
+  </div>
+  <div id="links">
+    <a href="#" class="link">Gmail</a>
+    <a href="#" class="link">Images</a>
+    <a href="#" class="link">Apps</a>
+    <a href="#" class="link">Google Drive</a>
+    <a href="#" class="link">More</a>
+    <a href="#" class="link">Sign in</a>
+  </div>
+</body>
+</html>

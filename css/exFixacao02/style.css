@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    background-color: rgb(211, 210, 210);
+}
+
+.general {
+    border: solid black;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: white;
+}
+
+section {
+    
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    
+}
+
+section h3 {
+    padding: 100px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer team</title>
+</head>
+<body>
+    <h1>Adding players to the team</h1>
+    <hr>
+    <div id="formJoin">
+        <div>
+            <label for="position">Position:</label>
+            <input type="text" name="position" id="position">
+        </div>
+        <br>
+        <div>
+            <label for="name">Name of the player: </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="shirt">Shirt number: </label>
+            <input type="text" name="shirt" id="shirt">
+        </div>
+        <br>
+        <div>
+            <button onclick="joinPlayer();">Join player</button>
+        </div>
+    </div>
+    <br>
+    <hr>
+    
+    <div id="formRemove">
+        <div>
+            <label for="shirtRemove">Shirt number: </label>
+            <input type="text" name="shirtRemove" id="shirtRemove">
+        </div>
+        <br>
+        <div>
+            <button onclick="removePlayer();">Remove player</button>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <h3>Players on the team:</h3>
+    <ul id="listOfPlayersOnTheTeam"></ul>
+
+
+    <script src="ex011.js"></script>
+</body>
+</html>
