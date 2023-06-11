@@ -25,6 +25,10 @@ button {
     background-color: rgb(219, 219, 219);
     border: 1px solid;
     border-radius: 5px;
+    margin: 5px;
+    width: 85px;
+    height: 40px;
+    text-align: center;
 
     cursor: pointer;
 }
@@ -40,10 +44,28 @@ ul {
 
 li {
     display: flex;
+    justify-content: start;
     padding-bottom: 10px;
     width: 50%;
 }
 
 p {
     margin: 5px;
+    text-align: left;
+    font-style: oblique;
 }
+
+
+#editMenu {
+    position: fixed;
+    background-color: rgb(241, 213, 119);
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px rgb(117, 115, 106), -5px 5px 35px rgb(117, 115, 106);
+    font-weight: bold;
+
+    visibility: hidden;
+    transition: visibility 0.02s;
+}
+

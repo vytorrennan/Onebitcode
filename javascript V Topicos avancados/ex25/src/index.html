@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
-    <title>Document</title>
+    <title>Transaction System</title>
 </head>
 <body>
+
+    <div id="editMenu">
+        <form>
+            <label for="nameEdit">Name:</label>
+            <input type="text" name="nameEdit" id="nameEdit">
+            <br>
+            <br>
+            <label for="valueEdit">Value:</label>
+            <input type="number" name="valueEdit" id="valueEdit">
+            <br>
+            <br>
+            <button style="font-weight: bold;">Edit Transaction</button>
+        </form>
+    </div>
+
     <section>
         <h3>Make a transaction</h3>
         <form>
@@ -20,10 +35,14 @@
         </form>
         <br>
         <hr>
-        <h3>Transactions</h3>
-        <ul>
-    
-        </ul>
+        <h3 id="total">Total:</h3>
+        <hr>
+        <div id="transactionsDiv">
+            <h3>Transactions</h3>
+            <ul>
+        
+            </ul>
+        </div>
         <hr>
     </section>
 </body>

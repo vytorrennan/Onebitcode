@@ -1,9 +1,9 @@
 {
   "Transactions": [
     {
-      "id": 0,
       "name": "Jonas",
-      "value": 250
+      "value": "250",
+      "id": 0
     },
     {
       "name": "James",
@@ -36,9 +36,9 @@
       "id": 7
     },
     {
-      "name": "1",
-      "value": "123",
-      "id": 8
+      "name": "Davi",
+      "value": "5000",
+      "id": 9
     }
   ]
 }
